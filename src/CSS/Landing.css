@@ -1,0 +1,41 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vb - 100px);
+  text-align: center;
+  background: url(../images/blueBack.jpeg) no-repeat center center / cover;
+  color: white;
+  box-shadow: 3px 20px 20px 20px gray;
+  border-radius: 0 0 10px 10px;
+}
+.landing-content {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing h1 {
+  color: #ffa600;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.landing p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.explore-btn {
+  padding: 10px 20px;
+  background: #ff9800;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.explore-btn:hover {
+  background: #e68900;
+}
