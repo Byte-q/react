@@ -20,6 +20,7 @@ function App() {
         <CartProvider>
           <Router>
             <Header />
+              <Landing />
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/products" element={<Products />} />
